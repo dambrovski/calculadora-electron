@@ -1,0 +1,66 @@
+<html>
+<style>
+body{
+  background-color: rgb(50, 69, 78);
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 25px;
+}
+button{
+    width:59;
+    height:60;
+    bold: true;
+    text-align: right;
+}
+input{
+    width:249;
+    height:50;
+}
+
+</style>
+
+<h1 id='h1_title'>Calculadora</h1>
+
+<input type="text" class = "texto" id="textoDigitado" size="12px">
+<br>
+<button>CE</button>
+<button>C</button>
+<button>X</button>
+<button>/</button>
+<br>
+<button>7</button>
+<button>8</button>
+<button>9</button>
+<button>X</button>
+<br>
+<button>4</button>
+<button>5</button>
+<button>6</button>
+<button>-</button>
+<br>
+<button>1</button>
+<button>2</button>
+<button>3</button>
+<button>+</button>
+<br>
+<button>+/-</button>
+<button>0</button>
+<button>,</button>
+<button onclick="imprimirTexto()">=</button>
+
+
+<section id="texto">
+    
+    <div type="text" id="textoResultado"></div>
+
+    
+</section>
+
+
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>
