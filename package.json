@@ -1,5 +1,5 @@
 {
-  "name": "calculadora",
+  "name": "Calculadora",
   "version": "1.0.0",
   "description": "projeto de calculadora electron",
   "main": "main.js",
