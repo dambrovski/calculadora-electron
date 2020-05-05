@@ -4,11 +4,18 @@
   "description": "projeto de calculadora electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "author": "dambrovski",
   "license": "ISC",
+  "build": {
+    "asar": "true",
+    "productName": "calculadora"
+  },
   "devDependencies": {
-    "electron": "^8.2.5"
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.0"
+    
   }
 }
